@@ -17,9 +17,9 @@ knitr::opts_chunk$set(fig.width=8, fig.height=6,dpi=300,
                       echo=FALSE, warning=FALSE, message=FALSE)
 ROOT_DIR<-"~/Fred Hutchinson Cancer Research Center"
 stem<-"Myeloma Exhaustion - General/allo1"
-DATA_DIR <- file.path(ROOT_DIR,  stem, "data")      # SPECIFY HERE
-RES_DIR  <- file.path(ROOT_DIR,  stem, "res")     # SPECIFY HERE
-RMD_DIR  <- file.path(ROOT_DIR,  stem, "rmd")     # SPECIFY HERE
+DATA_DIR <- file.path(ROOT_DIR,  stem, "data")     
+RES_DIR  <- file.path(ROOT_DIR,  stem, "res")     
+RMD_DIR  <- file.path(ROOT_DIR,  stem, "rmd")    
 CDS_DIR <- file.path(ROOT_DIR,  stem, "cds")
 FIG_DIR <- file.path(ROOT_DIR,  stem, "figs")
 
